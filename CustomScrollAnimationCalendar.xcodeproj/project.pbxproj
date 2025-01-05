@@ -11,6 +11,10 @@
 		DF9F33A42D2A572300A06FE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F33A32D2A572300A06FE0 /* ContentView.swift */; };
 		DF9F33A62D2A572400A06FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9F33A52D2A572400A06FE0 /* Assets.xcassets */; };
 		DF9F33A92D2A572400A06FE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9F33A82D2A572400A06FE0 /* Preview Assets.xcassets */; };
+		DF9F33B12D2A573E00A06FE0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F33B02D2A573E00A06FE0 /* HomeView.swift */; };
+		DF9F33B42D2A58CC00A06FE0 /* Extension+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F33B32D2A58CC00A06FE0 /* Extension+Color.swift */; };
+		DF9F33B62D2A646100A06FE0 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F33B52D2A646100A06FE0 /* Extension+Date.swift */; };
+		DFBA5D162D2AB44400F2A0EC /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA5D152D2AB44400F2A0EC /* Extension+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		DF9F33A32D2A572300A06FE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF9F33A52D2A572400A06FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF9F33A82D2A572400A06FE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF9F33B02D2A573E00A06FE0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF9F33B32D2A58CC00A06FE0 /* Extension+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Color.swift"; sourceTree = "<group>"; };
+		DF9F33B52D2A646100A06FE0 /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		DFBA5D152D2AB44400F2A0EC /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		DFF7CACD2D2AEB9B00CCB2B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +44,7 @@
 		DF9F33952D2A572300A06FE0 = {
 			isa = PBXGroup;
 			children = (
+				DFF7CACD2D2AEB9B00CCB2B0 /* README.md */,
 				DF9F33A02D2A572300A06FE0 /* CustomScrollAnimationCalendar */,
 				DF9F339F2D2A572300A06FE0 /* Products */,
 			);
@@ -51,6 +61,8 @@
 		DF9F33A02D2A572300A06FE0 /* CustomScrollAnimationCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				DF9F33B22D2A58BF00A06FE0 /* Extension */,
+				DF9F33AF2D2A573000A06FE0 /* View */,
 				DF9F33A12D2A572300A06FE0 /* CustomScrollAnimationCalendarApp.swift */,
 				DF9F33A32D2A572300A06FE0 /* ContentView.swift */,
 				DF9F33A52D2A572400A06FE0 /* Assets.xcassets */,
@@ -65,6 +77,24 @@
 				DF9F33A82D2A572400A06FE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF9F33AF2D2A573000A06FE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF9F33B02D2A573E00A06FE0 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF9F33B22D2A58BF00A06FE0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF9F33B32D2A58CC00A06FE0 /* Extension+Color.swift */,
+				DF9F33B52D2A646100A06FE0 /* Extension+Date.swift */,
+				DFBA5D152D2AB44400F2A0EC /* Extension+View.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9F33B12D2A573E00A06FE0 /* HomeView.swift in Sources */,
 				DF9F33A42D2A572300A06FE0 /* ContentView.swift in Sources */,
 				DF9F33A22D2A572300A06FE0 /* CustomScrollAnimationCalendarApp.swift in Sources */,
+				DF9F33B42D2A58CC00A06FE0 /* Extension+Color.swift in Sources */,
+				DFBA5D162D2AB44400F2A0EC /* Extension+View.swift in Sources */,
+				DF9F33B62D2A646100A06FE0 /* Extension+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +314,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +345,8 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
